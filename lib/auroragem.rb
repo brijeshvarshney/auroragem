@@ -1,11 +1,9 @@
-require "aurora_apis/version"
+require "auroragem/version"
 
-module AuroraApis
+module Auroragem
   # Your code goes her
 load 'h_mac_helper.rb'
 load 'post.rb'
-
-class AuroraApis
 
 	def self.tenant
 		HMacHelper.aurora_api("tenants","GET")
@@ -104,10 +102,9 @@ class AuroraApis
 		HMacHelper.aurora_api(new_uri,"GET")
 	end
 	
-end
 
-AuroraApi.tenant
-AuroraApi.retrieve_tenant
+#AuroraApi.tenant
+#AuroraApi.retrieve_tenant
 
 #AuroraApi.invite_user
 #AuroraApi.create_user
