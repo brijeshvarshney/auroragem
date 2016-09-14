@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["brijesh varshney"]
   spec.email         = ["brijesh.varshney@w3villa.com"]
 
-  spec.summary       = %q{this is aurora api gem.}
-  spec.description   = %q{use to get data of apis of aurora solar system}
+  spec.summary       = %q{A ruby gem for interacting with Aurora Api.}
+  spec.description   = %q{A ruby gem for interacting with Aurora Api}
   spec.homepage      = ""
   spec.license       = "MIT"
 
