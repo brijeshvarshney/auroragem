@@ -1,20 +1,14 @@
-require './auroragem/module/user'
-require './auroragem/module/projects'
-require './auroragem/module/tenant'
-require './auroragem/module/compute_hmac_signature'
-require './auroragem/module/format_request_string'
-require './auroragem/module/design'
-require './auroragem/module/consumptionpro'
-require './auroragem/module/components'
-require './auroragem/module/hash_helper'
-require './auroragem/module/post_apis'
-
-# load 'error.rb'
-# load 'tenant.rb'
-# load 'compute_hmac_signature.rb'
-# load 'format_request_string.rb'
-
-require './auroragem/module/apis'
+require 'auroragem/module/user'
+require 'auroragem/module/projects'
+require 'auroragem/module/tenant'
+require 'auroragem/module/compute_hmac_signature'
+require 'auroragem/module/format_request_string'
+require 'auroragem/module/design'
+require 'auroragem/module/consumptionpro'
+require 'auroragem/module/components'
+require 'auroragem/module/hash_helper'
+require 'auroragem/module/post_apis'
+require 'auroragem/module/apis'
 
 class Auroragem
 	
