@@ -2,7 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/auroragem`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+Auroragem is use for integration with aurora solar apis
 
 ## Installation
 
@@ -20,9 +20,29 @@ Or install it yourself as:
 
     $ gem install auroragem
 
-## Usage
+## how to use
 
-TODO: Write usage instructions here
+	* IN this gem Auroragem is main class which is to be initialized first. It require to pass two parameter "Aurora_api_key" and "aurora_secret_key".
+	
+	* This class will provide an object.
+
+	*	object.tenants 						=>	"To show all tenants"
+	*	object.get_tenants(id)				=>	"Get a tenant by id"
+	*	object.users 						=>	"To show all users"
+	*	object.get_user(id)					=>	"Get a user by id"
+	*	object.invite_user(id)				=>	"To invite a user"
+	*	object.create_user(id)				=>	"To create a user"
+	*	object.projects 					=>	"To get all projects"
+	*	object.get_projects(id)				=>	"Get a project by id"
+	*	object.create_project(id)			=>	"Create a new project by an external_id_provider"
+	*	object.design(id) 					=>	"Get a project design by id"
+	*	object.design_summary(id)			=>	"Get design summary by id"
+	*	object.create_design(id)			=>	"Create a new design summary by id"
+	*	object.consumption_profile(id)		=>	"Get a consumption profile by id"
+	*	object.create_consumption_profile(id)=>	"Create a consumption profile by id"
+	*	object.components 					=>	"Get all components"
+	*	object.get_component(id)			=>	"Get a component by id"
+
 
 ## Development
 
